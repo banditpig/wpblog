@@ -9,7 +9,7 @@ permalink: >
   http://gitcommit.co.uk/2017/04/18/java-dockerfile/
 published: true
 ---
-Docker - what's not to like.
+<img src="http://gitcommit.co.uk/wp-content/uploads/2017/03/refresh.png" alt="" width="128" height="128" class="alignnone size-full wp-image-317" />Docker - what's not to like?
 Here's a docker file that installs Java 8 over an Ubuntu base.
 It also installs Git and Maven. It takes a little while to build but does provide a full JDK with git and maven. 
 <pre class="lang:sh decode:true "># Ubuntu  with Java 8 installed.
