@@ -205,4 +205,4 @@ and some examples in ghci.
 λ-&gt; parse natural "42XYZ"
 [(42,"XYZ")]</pre>
 All the parsers we've looked at are typically <span class="lang:haskell decode:true crayon-inline ">Parser String</span> or <span class="lang:haskell decode:true crayon-inline ">Parser Char</span>
-In the next (third)  post of this series we'll look at creating more parsers and parser combinations with a view, in the fourth part, to parsing into data structures.
+In the  <a href="http://gitcommit.co.uk/2017/04/21/haskell-parsers-3/">next (third)</a> post of this series we'll look at creating more parsers and parser combinations with a view, in the fourth part, to parsing into data structures.
