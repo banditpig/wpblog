@@ -1,6 +1,6 @@
 ---
 ID: 367
-post_title: Haskell Parsers 3.
+post_title: Haskell Parsers Part 3.
 author: BanditPig
 post_date: 2017-04-21 10:54:23
 post_excerpt: ""
