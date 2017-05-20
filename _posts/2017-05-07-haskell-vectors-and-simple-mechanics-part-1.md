@@ -174,6 +174,6 @@ The dot product and its type.
 34.0
 ghci-&gt; :t a &gt;.&lt; b
 a &gt;.&lt; b :: Scalar</pre>
-So these results look right but it would be much better to have some thorough testing and that's where QuickCheck comes in and will be covered in part 2 along with the first steps in having a visual representation of a vector.
+In part two we will look at rendering Vectors to the screen to help visualise further work.
 
 Thanks for reading!
