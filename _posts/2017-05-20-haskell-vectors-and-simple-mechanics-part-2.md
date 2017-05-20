@@ -172,7 +172,7 @@ or this one showing more vectors
 
 <img class="alignnone size-medium wp-image-548" src="http://gitcommit.co.uk/wp-content/uploads/2017/05/Screen-Shot-2017-05-20-at-17.45.22-300x244.png" alt="" width="300" height="244" />
 
-I think that's enough for the moment and again all of this is available on <a href="https://github.com/banditpig/vectors">Github</a>. Next time we'll look at some simple  dynamics equations expressed in Vector form and look a visualising their solutions.
+I think that's enough for the moment and again all of this is available on <a href="https://github.com/banditpig/vectors">Github</a>. Next time we'll look at some simple  dynamics equations expressed in Vector form and look at visualising their solutions.
 
 Thanks for reading!
 
