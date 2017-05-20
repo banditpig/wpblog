@@ -174,6 +174,6 @@ The dot product and its type.
 34.0
 ghci-&gt; :t a &gt;.&lt; b
 a &gt;.&lt; b :: Scalar</pre>
-In part two we will look at rendering Vectors to the screen to help visualise further work.
+In part <a href="http://gitcommit.co.uk/2017/05/20/haskell-vectors-and-simple-mechanics-part-2/">two</a> we will look at rendering Vectors to the screen to help visualise further work.
 
 Thanks for reading!
