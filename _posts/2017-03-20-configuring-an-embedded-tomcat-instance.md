@@ -58,7 +58,7 @@ The first code snippet is the Maven dependencies:
     &lt;/dependency&gt;
 </pre>
 The class TomcatRunner shows the code needed
-<pre class="lang:java decode:true ">import org.apache.catalina.Context;
+<pre class="lang:java decode:true  ">import org.apache.catalina.Context;
 import org.apache.catalina.LifecycleException;
 import org.apache.catalina.Service;
 import org.apache.catalina.connector.Connector;
@@ -118,7 +118,7 @@ public class TomcatRunner {
       tomcat.addWebapp("",new File("conf/ssoWebapp").getAbsolutePath());
       //add others here...
     } catch (ServletException e) {
-      LOGGER.error("Problem loading SSO SP webapp. Could be fatal?");
+      LOGGER.error("Problem webapp. Could be fatal?");
     }
 
     tomcat.start();
