@@ -11,7 +11,7 @@ published: true
 ---
 <img class="alignnone size-full wp-image-317" src="http://gitcommit.co.uk/wp-content/uploads/2017/03/refresh.png" alt="" width="128" height="128" />I think this post will wrap up the series on Vectors and Simple Mechanics and we'll look at Simple Harmonic Motion (SHM) and compare the numerical solutions to SHM using the naive step function from the previous post - aka the '<em>Euler</em>' step and the more accurate '<em>Euler-Cromer</em>' method.
 
-Here's the Euler Step from last time.
+Here's the Euler Step <a href="http://gitcommit.co.uk/2017/05/28/haskell-vectors-and-simple-mechanics-part-3/">from last time</a>.
 <pre class="lang:haskell decode:true">step :: Accnf -&gt; Float -&gt; State -&gt; State
 step f dt st@(t, r, v) = (t', r', v') where
     t' = t + dt             
