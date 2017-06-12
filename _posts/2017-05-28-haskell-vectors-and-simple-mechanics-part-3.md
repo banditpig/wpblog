@@ -182,6 +182,6 @@ and here is an example using <em>vecsAtPos</em>
 
 <img class="alignnone size-medium wp-image-615" src="http://gitcommit.co.uk/wp-content/uploads/2017/05/Screen-Shot-2017-05-28-at-12.08.13-300x242.png" alt="" width="300" height="242" />
 
-I think that's enough for now. Next time we'll maybe look at other, slightly more complex, forces and see if the naive step function is capable of handling them. As usual all the code is available of <a href="https://github.com/banditpig/vectors">GitHub</a>.
+I think that's enough for now. <a href="http://gitcommit.co.uk/2017/06/12/haskell-vectors-and-simple-mechanics-part-4/">Next time</a> we'll maybe look at other, slightly more complex, forces and see if the naive step function is capable of handling them. As usual all the code is available of <a href="https://github.com/banditpig/vectors">GitHub</a>.
 
 Thanks for reading!
