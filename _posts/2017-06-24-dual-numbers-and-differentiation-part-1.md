@@ -251,8 +251,7 @@ and the differential by 'hand' is
 
 The '<a href="http://www.derivative-calculator.net/">Online Derivative Calculator</a>' really is useful... ;)
 
-This is just an introduction to the topic but I hope it gives a flavour of the potential it has. And, of course, the elegance of the Haskell type system comes to the fore with things like this. The next post in this series will look at extending these ideas to calculate 2nd and higher derivatives. In fact an infinite stream of derivatives based on using
-
-<span class="lang:haskell decode:true crayon-inline ">data Dual a = Dual a (Dual a)</span> as a recursive definition of Dual. All the code is in <a href="https://github.com/banditpig/autodiff">github</a> and...
+This is just an introduction to the topic but I hope it gives a flavour of the potential it has. And, of course, the elegance of the Haskell type system comes to the fore with things like this. The next post in this series will look at extending these ideas to calculate 2nd and higher derivatives. In fact an infinite stream of derivatives based on using 
+<span class="lang:haskell decode:true crayon-inline">data Dual a = Dual a (Dual a)</span> as a recursive definition of Dual.  As usual all the code is in <a href="https://github.com/banditpig/autodiff">github</a> and...
 
 Thanks for reading!
