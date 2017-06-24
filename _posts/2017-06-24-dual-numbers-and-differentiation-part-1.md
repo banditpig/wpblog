@@ -249,8 +249,10 @@ And, just for fun,
 and the differential by 'hand' is
 <img class="alignnone wp-image-764" src="http://gitcommit.co.uk/wp-content/uploads/2017/06/Screen-Shot-2017-06-24-at-19.25.45-300x193.png" alt="" width="904" height="581" />
 
-'<a href="http://www.derivative-calculator.net/">Online Derivative Calculator</a>' ;)
+The '<a href="http://www.derivative-calculator.net/">Online Derivative Calculator</a>' really is useful... ;)
 
-This is really just an introduction to the topic but I hope it gives a flavour of the potential it has. And, of course, the elegance of the Haskell type system comes to the fore with things like this. The next post in this series will look at extending these ideas to calculate 2nd and higher derivatives. In fact an infinite stream of derivatives based on using <span class="lang:haskell decode:true crayon-inline ">data Dual a = Dual a (Dual a)</span> as a recursive definition of Dual. All the code is in <a href="https://github.com/banditpig/autodiff">github</a> and...
+This is just an introduction to the topic but I hope it gives a flavour of the potential it has. And, of course, the elegance of the Haskell type system comes to the fore with things like this. The next post in this series will look at extending these ideas to calculate 2nd and higher derivatives. In fact an infinite stream of derivatives based on using
+
+<span class="lang:haskell decode:true crayon-inline ">data Dual a = Dual a (Dual a)</span> as a recursive definition of Dual. All the code is in <a href="https://github.com/banditpig/autodiff">github</a> and...
 
 Thanks for reading!
