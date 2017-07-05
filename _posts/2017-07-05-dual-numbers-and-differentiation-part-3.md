@@ -12,7 +12,7 @@ published: true
 post_date: 2017-07-05 17:31:16
 ---
 [latexpage]
-<img class="alignnone size-full wp-image-317" src="http://gitcommit.co.uk/wp-content/uploads/2017/03/refresh.png" alt="" width="128" height="128" />Previously we looked at using Dual numbers get the value of the first derivative of a function. As useful as this is there is more potential if we can also obtain the second derivative. My initial, naive, approach to this was to extend the idea of a Dual to that of a Triple like this. <span class="lang:haskell decode:true crayon-inline ">data Triple a = T a a a deriving (Show)</span>. Creating Triple somehow seemed 'wrong', or if not wrong then certainly clumsy as can be seen in some of the code below.
+<img class="alignnone size-full wp-image-317" src="http://gitcommit.co.uk/wp-content/uploads/2017/03/refresh.png" alt="" width="128" height="128" /><a href="http://gitcommit.co.uk/2017/06/29/dual-numbers-and-differentiation-part-2/">Previously</a> we looked at using Dual numbers get the value of the first derivative of a function. As useful as this is there is more potential if we can also obtain the second derivative. My initial, naive, approach to this was to extend the idea of a Dual to that of a Triple like this. <span class="lang:haskell decode:true crayon-inline ">data Triple a = T a a a deriving (Show)</span>. Creating Triple somehow seemed 'wrong', or if not wrong then certainly clumsy as can be seen in some of the code below.
 <pre class="lang:haskell decode:true ">data Triple a = T a a a deriving (Show)
 
 instance Fractional a =&gt; Fractional (Triple a ) where
