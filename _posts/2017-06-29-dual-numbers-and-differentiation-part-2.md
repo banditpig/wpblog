@@ -4,17 +4,17 @@ post_title: >
   Dual Numbers and Differentiation. Part
   2.
 author: BanditPig
-post_date: 2017-06-29 18:45:39
 post_excerpt: ""
 layout: post
 permalink: >
   http://gitcommit.co.uk/2017/06/29/dual-numbers-and-differentiation-part-2/
 published: true
+post_date: 2017-06-29 18:45:39
 ---
 [latexpage]
 
 <img class="alignnone size-full wp-image-317" src="http://gitcommit.co.uk/wp-content/uploads/2017/03/refresh.png" alt="" width="128" height="128" />At the end of the <a href="http://gitcommit.co.uk/2017/06/24/dual-numbers-and-differentiation-part-1/">previous</a> post I had intended this posting to be an exploration of a recursive definition of <em>Dual</em> that will give an infinite (lazy) list of derivatives. However, there's still a lot to play with using our simple
-<span class="lang:haskell decode:true crayon-inline ">data Dual a = Dual a a</span> Let's try a simple function of two variables and see where that takes us...
+<span class="lang:haskell decode:true crayon-inline ">data Dual a = Dual a a</span> Let's try a simple function of two variables...
 
 \begin{align*}
 f(x,y) &amp;= x^2 + xy \\
