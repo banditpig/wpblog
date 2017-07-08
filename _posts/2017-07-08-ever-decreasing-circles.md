@@ -10,7 +10,7 @@ published: true
 post_date: 2017-07-08 09:59:32
 ---
 [latexpage]
-<img class="alignnone size-full wp-image-317" src="http://gitcommit.co.uk/wp-content/uploads/2017/03/refresh.png" alt="" width="128" height="128" />A few days ago I came across this really interesting problem on the 'dailyprogrammer'.  Here's the question.
+<img class="alignnone size-full wp-image-317" src="http://gitcommit.co.uk/wp-content/uploads/2017/03/refresh.png" alt="" width="128" height="128" />A few days ago I came across this really interesting problem on the '<a href="https://www.reddit.com/r/dailyprogrammer/comments/6ksmh5/20170630_challenge_321_hard_circle_splitter/">dailyprogrammer</a>'.  Here's the question.
 
 <em>Imagine you've got a square in 2D space, with axis values between 0 and 1, like <a href="http://i.imgur.com/5K0HZEk.png">this diagram</a>. The challenge today is conceptually simple: can you place a circle within the square such that exactly half of the points in the square lie within the circle and half lie outside the circle, like <a href="http://i.imgur.com/n7BDeyg.png">here</a>? You're going to write a program which does this - but you also need to find the smallest circle which solves the challenge, ie. has the minimum area of any circle containing exactly half the points in the square.</em>
 
