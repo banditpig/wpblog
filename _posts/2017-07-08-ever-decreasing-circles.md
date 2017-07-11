@@ -104,10 +104,10 @@ makeCircle (x1, y1) (x2, y2) (x3, y3) = ((x, y), r) where
        k = 2 * (x1 * (y2 - y3) - y1 * (x2 - x3) + x2 * y3 - x3 * y2)
        x = ((x1^2 + y1^2) * (y2 - y3) + (x2^2 + y2^2) * (y3 - y1) + (x3^2 + y3^2) * (y1 - y2)) / k
        y = ((x1^2 + y1^2) * (x3 - x2) + (x2^2 + y2^2) * (x1 - x3) + (x3^2 + y3^2) * (x2 - x1)) / k
-       r = sqrt ((x - x1)^2 + (y - y1))
+       r = sqrt ((x - x1)^2 + (y - y1)^2)
 </pre>
 Here is the complete code:
-<pre class="lang:haskell decode:true ">import Data.Ord
+<pre class="lang:haskell decode:true  ">import Data.Ord
 import Data.List (sortBy)
 -- x,y
 type Point  = (Float, Float)
@@ -119,7 +119,7 @@ makeCircle (x1, y1) (x2, y2) (x3, y3) = ((x, y), r) where
        k = 2 * (x1 * (y2 - y3) - y1 * (x2 - x3) + x2 * y3 - x3 * y2)
        x = ((x1^2 + y1^2) * (y2 - y3) + (x2^2 + y2^2) * (y3 - y1) + (x3^2 + y3^2) * (y1 - y2)) / k
        y = ((x1^2 + y1^2) * (x3 - x2) + (x2^2 + y2^2) * (x1 - x3) + (x3^2 + y3^2) * (x2 - x1)) / k
-       r = sqrt ((x - x1)^2 + (y - y1))
+       r = sqrt ((x - x1)^2 + (y - y1)^2)
 
 
 isInCircle :: Point -&gt; Circle -&gt; Bool
