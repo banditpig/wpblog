@@ -59,7 +59,7 @@ pDx f x y z = f (Dual x 1) (Dual y 0) (Dual z 0)
 pDy f x y z = f (Dual x 0) (Dual y 1) (Dual z 0) 
 pDz f x y z = f (Dual x 0) (Dual y 0) (Dual z 1) 
 </pre>
-Which leads to a simple function Haskell function for the gradient operator
+Which leads to a neat Haskell function for the gradient operator
 
 \begin{flalign*}
 \nabla f(x, y, z) = \frac{\partial f}{\partial x}\hat{\imath} + \frac{\partial f}{\partial y}\hat{\jmath} + \frac{\partial f}{\partial z}\hat{k} \ \ \\
