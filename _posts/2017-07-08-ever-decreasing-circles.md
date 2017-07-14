@@ -219,6 +219,6 @@ I checked these results using the <a href="https://jsfiddle.net/gjkdc8hL/">link<
 
 <img class="alignnone wp-image-968" src="http://gitcommit.co.uk/wp-content/uploads/2017/07/Screen-Shot-2017-07-08-at-09.42.02-300x223.png" alt="" width="669" height="497" />
 
-This is certainly not and optimised solution but what I like about it is that the problem can be 'seen' in the solution. It also shows how Haskell lets you build up a solution by writing small, very focussed functions, then composing them to solve a non-trivial problem. Overall I really enjoyed doing this and may well explore extending it to three or more dimensions - maybe exploiting the potential abstraction that may be gained by taking a vector based approach. As usual the code is on <a href="https://github.com/banditpig/minimumCircle">Github</a>.
+This is certainly not an optimised solution but what I like about it is that the problem can be 'seen' in the solution. It also shows how Haskell lets you build up a solution by writing small, very focussed functions, then composing them to solve a non-trivial problem. Overall I really enjoyed doing this and may well explore extending it to three or more dimensions - perhaps exploiting the potential abstraction that may be gained by taking a vector based approach. As usual the code is on <a href="https://github.com/banditpig/minimumCircle">Github</a>.
 
 Thanks for reading!
