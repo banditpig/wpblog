@@ -102,6 +102,6 @@ And working the above out in <em>ghci</em> using our <em>gradV</em> and <em>Vect
 -- which is  18/(sqrt 5)    :)
 
 </pre>
-So really this post was a bit of an aside to show how easily the use of <em>Dual</em> extends to functions of more than one variable and how the gradient operator can be easily defined. We then tied this into a simple example using <em>Vectors</em>. Next time we will look at extending the <em>Dual</em> idea to produce second and higher order derivatives and see where that takes us! As always the code is on <a href="https://github.com/banditpig/autodiff">Github</a>.
+So really this post was a bit of an aside to show how easily the use of <em>Dual</em> extends to functions of more than one variable and how the gradient operator can be easily defined. We then tied this into a simple example using <em>Vectors</em>. <a href="http://gitcommit.co.uk/2017/07/05/dual-numbers-and-differentiation-part-3/">Next time</a> we will look at extending the <em>Dual</em> idea to produce second and higher order derivatives and see where that takes us! As always the code is on <a href="https://github.com/banditpig/autodiff">Github</a>.
 
 Thanks for reading!
