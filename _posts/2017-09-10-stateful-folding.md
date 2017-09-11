@@ -20,7 +20,7 @@ sumList :: [Int] -&gt; Int
 sumList [] = 0
 sumList (x:xs) = x + sumList xs</pre>
 Looking at this from a stateful perspective, to determine what changes, we see the function is called repeatedly with a list of decreasing length whilst the accumulated sum increases.
-This suggests that the State be modelled using a tuple of Int and a list of Int. i.e. giving the signature
+This suggests that the State can be modelled using a tuple of Int and a list of Int. i.e. giving the signature
 <pre class="lang:haskell decode:true ">sumListS :: State (Int, [Int]) Int
 sumListS = undefined
 </pre>
