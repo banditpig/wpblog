@@ -52,6 +52,6 @@ Now double 23.6 ignoring the decimal. This gives 472. Now find N such that 472N 
 
 And to 2 decimals we have 23.68.
 
-The key thing to note is that on the first pass we square the value in the result and then subtract values and on subsequent passes we double the result and subtract values. If you try a few examples with pen and paper it should become clear and in the next post I'll work through an implementation in Haskell.
+The key thing to note is that on the first pass we square the value in the result and then subtract values and on subsequent passes we double the result and subtract values. If you try a few examples with pen and paper it should become clear and in the <a href="http://gitcommit.co.uk/2017/09/15/the-root-of-the-problem-part-2/">next post</a> I'll work through an implementation in Haskell.
 
 Thanks for reading!
