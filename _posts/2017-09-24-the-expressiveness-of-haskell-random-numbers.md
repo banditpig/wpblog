@@ -41,7 +41,7 @@ pad xs
 The  <em>mid4</em> function uses the <em>substr</em> function written in a <a href="http://gitcommit.co.uk/2017/09/08/the-expressiveness-of-haskell-substrings/">previous post.</a> i.e.
 <pre class="lang:haskell decode:true">--
 mid4 :: [a] -&gt; [a]
-mid4 = substr 4 4 
+mid4 = substr 2 4 
 substr :: Int -&gt; Int -&gt; [a] -&gt; [a]
 substr s e xs = take e (drop s xs)
 </pre>
@@ -75,7 +75,7 @@ pad xs
   | otherwise = pad (0 : xs)
 
 mid4 :: [a] -&gt; [a]
-mid4 = substr 4 4 
+mid4 = substr 2 4 
 substr :: Int -&gt; Int -&gt; [a] -&gt; [a]
 substr s e xs = take e (drop s xs)
 
