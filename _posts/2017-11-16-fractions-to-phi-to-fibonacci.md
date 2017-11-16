@@ -69,8 +69,7 @@ type Numerator = Integer
 type Denominator = Integer
 {-
 So a fraction can be a simple
-3 or 3/4 or 3 / (4 / (...))
-or a recursive, continued, fraction:
+3 or 3/4 or 3 / (4 / (...)) a recursive, continued, fraction:
 -}
 data Fraction  = Numbr Numerator | F Numerator Fraction
 
