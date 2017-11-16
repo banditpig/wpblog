@@ -282,7 +282,7 @@ What I've written here has only touched the surface of continued fractions. I ho
 </ul>
 This <a href="http://www.maths.surrey.ac.uk/hosted-sites/R.Knott/Fibonacci/cfINTRO.html">website</a>   is a mine of wonderfully explained ideas about fractions and is well worth a look. It explains in a clear and detailed way many properties of continued fractions.
 
-You can find this Haskell code in  <a href="https://github.com/banditpig/Fractions">GitHub</a>.
+You can find this Haskell code in  <a href="https://github.com/banditpig/Fractions/tree/post1">GitHub</a>.
 
 Thanks for reading...!
 
