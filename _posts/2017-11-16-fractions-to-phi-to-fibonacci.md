@@ -60,7 +60,7 @@ instance Show Fraction where
 This is fairly simple pattern matching on the <em>show</em> function. The final pattern is slightly more complex as it handles the condition where a fraction may have another fraction as its denominator and so it calls <em>show</em> again recursively.
 
 If we make Fraction an instance of the <em>Num</em> typeclass then we can, with suitable definitions,  use  operators  +, -, *  on Fractions. And, if we make Fraction an instance of Haskell's <em>Fractional</em> typeclass we can use the division, /, operator.  I think the code is fairly self explanatory so I'll add it all here and then describe some of the more important parts.
-<pre class="lang:haskell decode:true">--
+<pre class="lang:haskell decode:true ">--
 --
 module Fractions where
 import           Data.Ratio
@@ -99,7 +99,7 @@ instance Num Fraction where
             F n1 d1 = simplify f
     fromInteger = Numbr
 
--- Allows the 1/1 operator to be used with Fraction
+-- Allows the '/' operator to be used with Fraction
 instance Fractional Fraction where
     fromRational x = F (numerator x) (Numbr (denominator x))
     (/) = divid
