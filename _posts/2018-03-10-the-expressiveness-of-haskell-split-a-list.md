@@ -11,7 +11,7 @@ permalink: >
 published: true
 post_date: 2018-03-10 10:01:18
 ---
-<img class="alignnone size-medium wp-image-349" src="http://gitcommit.co.uk/wp-content/uploads/2017/03/cropped-refresh-1-300x300.png" alt="" width="300" height="300" />Just recently playing around with one of the excellent <a href="https://adventofcode.com/">Advent of Code</a> problems (specifically <a href="https://adventofcode.com/2015/day/6">2015 question 6</a> ) a possible solution involved splitting a list into two parts where the first element goes into the first part, the second element into the second part and so on. For example
+<img class="alignnone size-full wp-image-317" src="http://gitcommit.co.uk/wp-content/uploads/2017/03/refresh.png" alt="" width="128" height="128" />Just recently playing around with one of the excellent <a href="https://adventofcode.com/">Advent of Code</a> problems (specifically <a href="https://adventofcode.com/2015/day/6">2015 question 6</a> ) a possible solution involved splitting a list into two parts where the first element goes into the first part, the second element into the second part and so on. For example
 <ul>
  	<li>[1, 2, 3, 4, 5, 6] -&gt; [1, 3, 5], [2, 4, 6]</li>
 </ul>
