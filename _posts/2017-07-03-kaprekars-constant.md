@@ -2,24 +2,24 @@
 ID: 876
 post_title: 'Kaprekar&#8217;s Constant.'
 author: BanditPig
-post_date: 2017-07-03 16:03:49
 post_excerpt: ""
 layout: post
 permalink: >
   http://gitcommit.co.uk/2017/07/03/kaprekars-constant/
 published: true
+post_date: 2017-07-03 16:03:49
 ---
 [latexpage]
 <img class="alignnone size-full wp-image-317" src="http://gitcommit.co.uk/wp-content/uploads/2017/03/refresh.png" alt="" width="128" height="128" />Just recently I came across '<a href="https://en.wikipedia.org/wiki/6174_(number)">Kaprekar's Constant</a>' and maybe Mr Kaprekar had too much spare time... but still, it is quite interesting. The idea is to take a 4 digit number where the digits are not all the same then make the largest and smallest numbers possible with these digits, subtract the smaller from the larger then rinse and repeat with the result of the subtraction.
 
 e.g start with 4123
-\begin{align*}
-4321 - 1234 = 3087 \\
-8730 - 0378 = 8352 \\
-8532 - 2358 = 6174 \\
-7641 - 1467 = 6174 \\
+
+4321 - 1234 = 3087 
+8730 - 0378 = 8352 
+8532 - 2358 = 6174 
+7641 - 1467 = 6174 
 ... repeats...
-\end{align*}
+
 
 and in fact all 4 digits 'converge' to 6174!
 Now this is too good an opportunity for some Haskell...
