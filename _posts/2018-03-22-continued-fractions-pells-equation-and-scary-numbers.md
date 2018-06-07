@@ -11,17 +11,17 @@ post_date: 2018-03-22 07:49:49
 ---
 <img class="alignnone size-full wp-image-317" src="http://gitcommit.co.uk/wp-content/uploads/2017/03/refresh.png" alt="" width="128" height="128" />[latexpage]This is Pell's equation:
 
-\begin{align}
-x^2 -ny^2 = 1
-\end{align}
+
+$x^2 -ny^2 = 1$
 
 where n is a positive integer that isn't a perfect square. Only integer solutions for x and y are sought and if n is not a perfect square then there are infinitely many integer solutions.
 
 It can be shown that the convergents of the continued fraction (CF) for the square root of n contains a solution known as the Fundamental Solution (FS). In practice this fundamental solution is the first convergent that satisfies the equation under consideration. Once this solution is known then all other solutions can be calculated from a simple recurrence relationship. i.e. If the fundamental solution is (x1, y1) then
-\begin{align}
-x_{k+1} = x_1 x_k + n y_1 y_k \\
-y_{k+1} = x_1 y_k + y_1 x_k
-\end{align}
+
+$x_{k+1} = x_1 x_k + n y_1 y_k$
+
+$y_{k+1} = x_1 y_k + y_1 x_k$
+
 
 Note that a more rigorous treatment of the above formulae can be found on <a href="http://mathworld.wolfram.com/PellEquation.html">WolframMathWorld</a> and on <a href="https://en.wikipedia.org/wiki/Pell%27s_equation">Wikipedia</a>.
 
@@ -71,9 +71,8 @@ In the tenth solution x is a 169 digit number and y has 168 digits!
 
 I find it stunning that something  simple and benign looking as
 
-\begin{align}
-x^2 -313y^2 = 1
-\end{align}
+$x^2 -313y^2 = 1$
+
 
 hides such monstrous numbers! We can open it up even more with a couple of helper functions. One to count the number of digits in a number and one to get the nth solution as (x, y) and then count the digits in each. Like this
 <pre class="lang:haskell decode:true ">--
@@ -85,9 +84,8 @@ nthSolutionSize nth n = (countDigits x, countDigits y) where
     (x, y) = last . take nth . solvePellAll $ n</pre>
 We can now use the above on this innocent looking equation :)
 
-\begin{align}
-x^2 -2y^2 = 1
-\end{align}
+$x^2 -2y^2 = 1$
+
 
 For the 10 000th solution...
 <pre class="lang:haskell decode:true">--
@@ -105,9 +103,8 @@ showing that x and y each have over three quarters of a million digits each! The
 
 The last time I counted, the universe had around 10^80 atoms - give or take -  that's an 81 digit number. And yet
 
-\begin{align}
-x^2 -2y^2 = 1
-\end{align}
+$x^2 -2y^2 = 1$
+
 
 hides numbers that are truly incomprehensible.
 
