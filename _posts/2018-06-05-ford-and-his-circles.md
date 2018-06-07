@@ -87,8 +87,6 @@ Notice how the circles don't intersect, are tangential to immediate neighbours a
 
 <hr />
 
-&nbsp;
-
 and with a bit of manipulation...
 
 <img class="size-full wp-image-1513 alignnone" src="http://gitcommit.co.uk/wp-content/uploads/2018/06/Screen-Shot-2018-06-05-at-16.27.02.png" alt="" width="2880" height="1800" />
@@ -97,21 +95,13 @@ and with a bit of manipulation...
 
 &nbsp;
 
-&nbsp;
-
 <img class="size-full wp-image-1515 alignnone" src="http://gitcommit.co.uk/wp-content/uploads/2018/06/Screen-Shot-2018-06-05-at-16.29.00.png" alt="" width="2880" height="1800" />
 
 <hr />
 
-&nbsp;
-
 With high contrast...
 
 <img class="size-full wp-image-1509 alignnone" src="http://gitcommit.co.uk/wp-content/uploads/2018/06/Screen-Shot-2018-06-05-at-16.14.04-1.png" alt="" width="2880" height="1800" />
-
-&nbsp;
-
-&nbsp;
 
 <hr />
 
