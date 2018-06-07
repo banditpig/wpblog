@@ -9,17 +9,17 @@ permalink: >
 published: true
 post_date: 2018-06-05 17:46:01
 ---
-<img class="alignleft size-full wp-image-317" src="http://gitcommit.co.uk/wp-content/uploads/2017/03/refresh.png" alt="" width="128" height="128" />[latexpage]
+<img class="alignleft size-full wp-image-317" src="http://gitcommit.co.uk/wp-content/uploads/2017/03/refresh.png" alt="" width="128" height="128" />
+
+&nbsp;
 
 &nbsp;
 
 &nbsp;
 <p style="text-align: left;">A <a href="https://en.wikipedia.org/wiki/Ford_circle">Ford circle</a>  is a circle derived from a pair of numbers that are co-prime, i.e. they have no common factors. For  a pair of co-prime integers p and q the Ford circle has radius r and centre at a point</p>
-<p style="text-align: left;">P(x, y) where
-\begin{align*}
-r=\frac{1}{2q^2}\\
-P=(\frac{p}{q}\ , r)\\
-\end{align*}</p>
+<p style="text-align: left;">P(x, y) where r = 1/(2q^2) and P = (p/q, r)
+
+</p>
 No matter what co-prime numbers, p and q, are used to create Ford circles the circles never intersect and they are all tangential to the horizontal  axis.
 
 Now, we could generate 'random' Ford circles by picking any old co-prime pair (p, q). However, the Farey series is a 'ready made' set of such integers - all the Farey fractions are in reduced form and so the numerator and denominator are co-prime. For example, using the code from the <a href="http://gitcommit.co.uk/2018/05/26/count-the-fractions/">previous post</a>,
