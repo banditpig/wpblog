@@ -83,37 +83,37 @@ we can generate an attractive interpretation of the data...
 
 Notice how the circles don't intersect, are tangential to immediate neighbours and to the x axis.
 
-<img class="aligncenter size-full wp-image-1511" src="http://gitcommit.co.uk/wp-content/uploads/2018/06/Screen-Shot-2018-06-05-at-16.24.17.png" alt="" width="2880" height="1800" />
+<img class="size-full wp-image-1511 alignleft" src="http://gitcommit.co.uk/wp-content/uploads/2018/06/Screen-Shot-2018-06-05-at-16.24.17.png" alt="" width="2880" height="1800" />
 
 <hr />
 
 and with a bit of manipulation...
 
-<img class="aligncenter size-full wp-image-1513" src="http://gitcommit.co.uk/wp-content/uploads/2018/06/Screen-Shot-2018-06-05-at-16.27.02.png" alt="" width="2880" height="1800" />
+<img class="size-full wp-image-1513 alignleft" src="http://gitcommit.co.uk/wp-content/uploads/2018/06/Screen-Shot-2018-06-05-at-16.27.02.png" alt="" width="2880" height="1800" />
 
 <hr />
 
 &nbsp;
 
-<img class="aligncenter size-full wp-image-1515" src="http://gitcommit.co.uk/wp-content/uploads/2018/06/Screen-Shot-2018-06-05-at-16.29.00.png" alt="" width="2880" height="1800" />
+<img class="size-full wp-image-1515 alignleft" src="http://gitcommit.co.uk/wp-content/uploads/2018/06/Screen-Shot-2018-06-05-at-16.29.00.png" alt="" width="2880" height="1800" />
 
 <hr />
 
 With high contrast...
 
-<img class="aligncenter size-full wp-image-1509" src="http://gitcommit.co.uk/wp-content/uploads/2018/06/Screen-Shot-2018-06-05-at-16.14.04-1.png" alt="" width="2880" height="1800" />
+<img class="size-full wp-image-1509 alignleft" src="http://gitcommit.co.uk/wp-content/uploads/2018/06/Screen-Shot-2018-06-05-at-16.14.04-1.png" alt="" width="2880" height="1800" />
 
 <hr />
 
-<img class="aligncenter size-full wp-image-1507" src="http://gitcommit.co.uk/wp-content/uploads/2018/06/Screen-Shot-2018-06-05-at-16.17.17.png" alt="" width="2880" height="1800" />
+<img class="size-full wp-image-1507 alignleft" src="http://gitcommit.co.uk/wp-content/uploads/2018/06/Screen-Shot-2018-06-05-at-16.17.17.png" alt="" width="2880" height="1800" />
 
 <hr />
 
-<img class="aligncenter size-full wp-image-1506" src="http://gitcommit.co.uk/wp-content/uploads/2018/06/Screen-Shot-2018-06-05-at-16.17.23.png" alt="" width="2880" height="1800" />
+<img class="size-full wp-image-1506 alignleft" src="http://gitcommit.co.uk/wp-content/uploads/2018/06/Screen-Shot-2018-06-05-at-16.17.23.png" alt="" width="2880" height="1800" />
 
 <hr />
 
-<img class="aligncenter size-full wp-image-1521" src="http://gitcommit.co.uk/wp-content/uploads/2018/06/Screen-Shot-2018-06-05-at-18.42.27.png" alt="" width="2880" height="1800" />
+<img class="size-full wp-image-1521 alignleft" src="http://gitcommit.co.uk/wp-content/uploads/2018/06/Screen-Shot-2018-06-05-at-18.42.27.png" alt="" width="2880" height="1800" />
 
 Quite pleasing images for little effort :)
 
