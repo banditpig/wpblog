@@ -205,7 +205,7 @@ Finally here's a neatly formatted pyramid of Farey fractions up to order 9.
 <span style="color: #0000ff;">0/1 1/7 1/6 1/5 1/4 2/7 1/3 2/5 3/7 1/2 4/7 3/5 2/3 5/7 3/4 4/5 5/6 6/7 1/1</span>
 <span style="color: #0000ff;">0/1 1/8 1/7 1/6 1/5 1/4 2/7 1/3 3/8 2/5 3/7 1/2 4/7 3/5 5/8 2/3 5/7 3/4 4/5 5/6 6/7 7/8 1/1</span>
 <span style="color: #0000ff;">0/1 1/9 1/8 1/7 1/6 1/5 2/9 1/4 2/7 1/3 3/8 2/5 3/7 4/9 1/2 5/9 4/7 3/5 5/8 2/3 5/7 3/4 7/9 4/5 5/6 6/7 7/8 8/9 1/1</span></p>
-The next post will be showing a geometrical interpretation of these fractions.
+The <a href="http://gitcommit.co.uk/2018/06/05/ford-and-his-circles/">next post</a> will be showing a geometrical interpretation of these fractions.
 
 All the code is in <a href="https://github.com/banditpig/Farey/tree/monoidFractions">Github</a> and thanks for reading!
 
