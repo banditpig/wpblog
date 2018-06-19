@@ -1,6 +1,6 @@
 ---
 ID: 1589
-post_title: 'A Stern View&#8230;'
+post_title: A Stern View.
 author: BanditPig
 post_excerpt: ""
 layout: post
