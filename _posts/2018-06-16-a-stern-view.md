@@ -102,7 +102,7 @@ and <span class="lang:haskell decode:true crayon-inline ">zip &lt;*&gt; tail</s
 
 <span class="lang:haskell decode:true crayon-inline">λ-&gt; zip &lt;*&gt; tail $ ([1,2,3,4,5,6]::[Int]) gives  [(1,2),(2,3),(3,4),(4,5),(5,6)]</span>
 
-Typically the  fractions just generated are viewed in a tree  know as the '<a href="https://en.wikipedia.org/wiki/Stern%E2%80%93Brocot_tree">Stern-Brocot Tree</a>'. Creating such a tree and displaying it will be done in detail in the next post.  In the meantime here is an example of <a href="http://gitcommit.co.uk/wp-content/uploads/2018/06/tree.html">such a tree,</a>  rendered using  <a href="http://hackage.haskell.org/package/tree-view-0.5/docs/Data-Tree-View.html#t:Behavior">tree-view</a>,  note that it is shown collapsed initially, just click on the fractions to expand/collapse them.
+Typically the  fractions just generated are viewed in a tree  know as the '<a href="https://en.wikipedia.org/wiki/Stern%E2%80%93Brocot_tree">Stern-Brocot Tree</a>'. Creating such a tree and displaying it will be done in detail in the<a href="http://gitcommit.co.uk/2018/07/16/a-stern-tree/"> next post</a>.  In the meantime here is an example of <a href="http://gitcommit.co.uk/wp-content/uploads/2018/06/tree.html">such a tree,</a>  rendered using  <a href="http://hackage.haskell.org/package/tree-view-0.5/docs/Data-Tree-View.html#t:Behavior">tree-view</a>,  note that it is shown collapsed initially, just click on the fractions to expand/collapse them.
 
 All the code is in <a href="https://github.com/banditpig/Farey/tree/monoidFractions">Github</a> and thanks for reading!
 
