@@ -120,7 +120,7 @@ reduceSternPath' = reduceMatrix . mconcat . fmap sternTermMatrix
 </pre>
 where we use the 'free' (Monoid) implementation of <em>mconcat</em> to reduce a list of <em>Matrix</em> that's created by <em>fmapping</em> over the <em>SternPath</em>.  It's little things like this that make Haskell such a joy to use and shows that you don't always have to swim in the deep end to have fun with the language!
 
-All the code is in Github and thanks for reading!
+All the code is in <a href="https://github.com/banditpig/Farey/tree/monoidFractions">Github</a> and thanks for reading!
 
 &nbsp;
 
