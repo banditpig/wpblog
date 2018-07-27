@@ -99,7 +99,7 @@ and map a <em>SternTerm</em> to a <em>Matrix</em> with this simple function
 <pre class="lang:haskell decode:true">--
 sternTermMatrix :: SternTerm -&gt; Matrix
 sternTermMatrix t = if t == L then left else right</pre>
-With these these functions we can reduce a path to a fraction like this:
+With these functions we can reduce a path to a fraction like this:
 <pre class="lang:haskell decode:true">--
 reduceSternPath :: SternPath -&gt; Fraction
 reduceSternPath   = reduceMatrix . foldl (\ acc t -&gt; sternTermMatrix t &lt;&gt; acc ) ident
