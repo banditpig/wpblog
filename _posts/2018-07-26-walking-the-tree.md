@@ -68,9 +68,7 @@ A really interesting path to evaluate is alternating <em>L</em> then <em>R</em> 
 196418/317811,317811/514229,514229/832040]</pre>
 and  we see that the numerators (or denominators) are the Fibonacci numbers! (Which ties in quite nicely with the earlier posts about <a href="http://gitcommit.co.uk/2017/11/16/fractions-to-phi-to-fibonacci/">continued fractions</a> ).
 
-It is also fascinating that we can express the <em>SternPath</em> as the multiplication of 2x2 matrices! This is discussed in detail in <em>Concrete Mathematics by Graham et al</em>
-
-which is a gem of a book and gives a more detailed treatment of the stern path expressed as matrix manipulation. What follows next is just an overview of what's discussed in <em>Concrete Mathematics.</em>
+It is also fascinating that we can express the <em>SternPath</em> as the multiplication of 2x2 matrices! This is discussed in detail in <em>Concrete Mathematics by Graham et al</em> which is a gem of a book and gives a more detailed treatment of the stern path expressed as matrix manipulation. What follows next is just an overview of what's discussed in <em>Concrete Mathematics.</em>
 <h4>Stern Matrices</h4>
 In Haskell we can defines a data type <em>Matrix</em> and define a '<em>left</em>', '<em>right</em>' and identity matrix and make a <em>Monoid</em> instance for it like this
 <pre class="lang:haskell decode:true">--
