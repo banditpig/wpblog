@@ -1,6 +1,6 @@
 ---
 ID: 1680
-post_title: 'Haskell and F# &#8211; Advent of Code Day 1.'
+post_title: 'Haskell and F# &#8211; Advent of Code Day 1'
 author: BanditPig
 post_excerpt: ""
 layout: post
@@ -12,7 +12,7 @@ post_date: 2018-12-02 20:34:19
 <img class="alignnone size-full wp-image-317" src="http://gitcommit.co.uk/wp-content/uploads/2017/03/refresh.png" alt="" width="128" height="128" />This is the first in a series of occasional posts comparing Haskell and F# when solving the <a href="https://adventofcode.com/2018">2018 Advent of Code puzzles  </a>(AoC). One puzzle is available on each of the 25 days of December leading up to the 25th. Each puzzle is in two parts and the second part is only available once the first part has been solved!
 
 I've been learning Haskell for a few years now - I 'got' monads about a year ago then thought  'oh duh!' . My knowledge of F# is embryonic - I've only just started - and I thought it might be informative to solve some problems using both languages.
-<h2>Day 1. Part 1.</h2>
+<h2>Day 1. Part 1</h2>
 Reduces to reading in a list of integers, positive and negative and summing them. Full details are <a href="https://adventofcode.com/2018/day/1">here</a>.
 <h3>In Haskell...</h3>
 In Haskell reading in a file is done monadically in the IO Monad. For AoC  last year I made a small library of parser utilities to help in reading a file of ints or strings etc.  This function is at the core of it
