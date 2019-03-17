@@ -170,25 +170,3 @@ The code is <a href="https://github.com/banditpig/kalman">here on GitHub.</a>
 And thanks for reading!
 
 &nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
