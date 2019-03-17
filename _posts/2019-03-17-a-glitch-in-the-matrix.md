@@ -165,7 +165,7 @@ identity n | n &lt;= 0 = [[]]
 </pre>
 but, not unreasonably, the value for <em>n</em> in the <em>Monoid</em> is not available. At this point I reached the limit of my 'type voodo' skills in Haskell and will revisit the matrix and also have the row/column sizes as part of the data constructor as well as the type constructor. That way there's the type safety at compile time and the flexibility of having the row/column sizes available at runtime.
 
-The code is<a href="https://github.com/banditpig/kalman"> here on GitHub.</a>
+The code is <a href="https://github.com/banditpig/kalman">here on GitHub.</a>
 
 And thanks for reading!
 
