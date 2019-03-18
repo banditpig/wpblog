@@ -93,7 +93,7 @@ and of course subtraction is very similar.
 <pre class="lang:haskell decode:true">sub :: Num a =&gt; Matrix n m a -&gt; Matrix n m a  -&gt; Matrix n m a
 sub (Matrix xs) (Matrix ys ) = Matrix $ zipWith (zipWith (-)) xs ys
 </pre>
-Clearly add and sub are very similar, they both embed a binary operation  and this can be abstracted into a separate function like this
+Clearly <em>add</em> and <em>sub</em> are very similar, they both embed a binary operation  and this can be abstracted into a separate function like this
 <pre class="lang:haskell decode:true">-- A binary operation on square matrices.
 sqOp :: Num a =&gt; (a -&gt; a -&gt; a) -&gt; Matrix n m a -&gt; Matrix n m a -&gt; Matrix n m a   
 sqOp f (Matrix xs) (Matrix ys ) = Matrix $ zipWith (zipWith f) xs ys                             
@@ -121,7 +121,7 @@ class Num a where
   signum :: a -&gt; a
   fromInteger :: Integer -&gt; a
   {-# MINIMAL (+), (*), abs, signum, fromInteger, (negate | (-)) #-}</pre>
-So the problem here how  does the division operation get resolved from just a <em>Num</em> type? In other words which division operation is actually used? Is it integer type division or the division of double types? A neat solution to this is to create custom type class that resolves the actual division operation and use this new type class as a constraint on the division operation. Like this.
+So the problem here how  does the division operation get resolved from just a <em>Num</em> type? In other words which division operation is actually used? Is it integer type division or the division of double types? A neat solution to this is to create a custom type class that resolves the actual division operation and use this new type class as a constraint on the division operation. Like this.
 <pre class="lang:haskell decode:true">--
 class DivSupported a where
   divOp :: a -&gt; a -&gt; a
