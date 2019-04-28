@@ -16,7 +16,7 @@ When thinking about implementing basic functions for matrices I wondered how - o
 We can define a Matrix type
 <pre class="lang:haskell decode:true ">newtype Matrix (r :: Nat) (c :: Nat) a = Matrix [[a]] deriving Show
 </pre>
-Where <em>r</em> and <em>c</em> or so called Phantom Type. i.e. Types that appear in the type constructor but not in the data constructor. It's a form of 'tag' on the data type that exists at compile time but is lost at runtime. Having the tags a compile time prevents errors being introduced  in the first place rather than having to handle them at runtime.
+Where <em>r</em> and <em>c</em> are so called Phantom Type. i.e. Types that appear in the type constructor but not in the data constructor. It's a form of 'tag' on the data type that exists at compile time but is lost at runtime. Having the tags a compile time prevents errors being introduced  in the first place rather than having to handle them at runtime.
 <h3>Matrix Multiplication</h3>
 So what sort of errors can this phantom type help catch at compile time? Matrix multiplication is an example and was the motivation behind these experiments.
 Multiplication of two matrices is only defined if the number of columns in the first matrix is equal to the number of rows in the second.
